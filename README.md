@@ -27,19 +27,11 @@
 
     <h2><strong>How It Works:</strong></h2>
     
-    <h3><strong>Embedding Generation (embedding.mjs):</strong></h3>
-    <ul>
-        <li>Reads input data from a JSON file.</li>
-        <li>Sends the data to OpenAI to generate embeddings.</li>
-        <li>Saves the embeddings along with the input data into a new JSON file, storing the results permanently.</li>
-    </ul>
+    <h3><strong>Embedding Generation:</strong></h3>
+    <p>Reads input data from a JSON file, sends the data to OpenAI to generate embeddings, and saves the embeddings along with the input data into a new JSON file, storing the results permanently.</p>
 
-    <h3><strong>Similarity Matching (similarity.mjs):</strong></h3>
-    <ul>
-        <li>Loads the generated embeddings from the saved JSON file.</li>
-        <li>Compares the embeddings using vector similarity (e.g., cosine similarity) to find related or similar items.</li>
-        <li>Returns similarity scores, which can be used for semantic search or recommendations.</li>
-    </ul>
+    <h3><strong>Similarity Matching:</strong></h3>
+    <p>Loads the generated embeddings from the saved JSON file, compares the embeddings using vector similarity (e.g., cosine similarity) to find related or similar items, and returns similarity scores, which can be used for semantic search or recommendations.</p>
 
     <h3><strong>Utility Functions:</strong></h3>
     <ul>
@@ -52,10 +44,10 @@
     <ol>
         <li>Clone the repository to your local machine.</li>
         <li>Install the required dependencies: <code>npm install openai</code>.</li>
-        <li>Set your OpenAI API key in the <code>embedding.mjs</code> file.</li>
+        <li>Set your OpenAI API key in the project.</li>
         <li>Adjust the file paths to your desired permanent storage directory.</li>
-        <li>Run the embedding generation script: <code>node embedding.mjs</code>.</li>
-        <li>Run the similarity comparison script: <code>node similarity.mjs</code> to find similarities between generated embeddings.</li>
+        <li>Run the embedding generation script.</li>
+        <li>Run the similarity comparison script to find similarities between generated embeddings.</li>
     </ol>
 
     <h2><strong>Use Cases:</strong></h2>
