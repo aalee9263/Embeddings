@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embeddings - OpenAI Embedding Generator</title>
-</head>
 <body>
     <h1><strong>Embeddings</strong></h1>
     <p><strong>OpenAI Embedding Generator with Permanent Data Storage &amp; Similarity Matching</strong></p>
@@ -57,4 +50,3 @@
         <li><strong>Machine Learning:</strong> Store embeddings for further analysis, model training, or similarity-based operations in AI-driven applications.</li>
     </ul>
 </body>
-</html>
