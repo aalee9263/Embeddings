@@ -8,7 +8,7 @@
 
 import { OpenAI } from 'openai'
 
-const openAI = new OpenAI({apiKey:"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"})
+const openAI = new OpenAI({apiKey:process.env.OPENAI_API_KEY})
 
 async function callOpenAIWithTools() {
     const context  =[{role:'system', content: "You are a helpful chatbot"},
